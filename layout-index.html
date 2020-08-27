@@ -26,92 +26,93 @@
 
 <body>
 
-    <header class="header ">
+    <header class="header position-sticky sticky-top bg-white  ">
         <div class="container ">
-            <nav
-                class="navbar navbar-expand-lg navbar-light bg-light justify-content-between  align-items-center px-0 py-4px  ">
-                <a class="navbar-brand " href="index.html"><img src="img/d’Perfume.png" alt="logo"></a>
+            <nav class="navbar navbar-expand-lg navbar-light justify-content-between  align-items-center px-0 py-9px  ">
+                <a class="navbar-brand py-0" href="index.html">
+                    <h1 class="logo mb-0">D'PERFUME</h1>
+                </a>
+                <!-- pc 選單 -->
                 <div class="d-none d-lg-block">
-                    <ul class=" d-flex justify-content-end mb-0 pl-0">
-                        <li
-                            class=" d-flex align-items-center ml-0  justify-content-center justify-content-lg-start ml-5 ">
-                            <img src="img/tshirt.svg" alt="tshirt">
-                            <a class="nav-link  text-md-gray-E0E0E0 text-gray-E0E0E0 text-center text-20px ml-3px "
-                                href="product-list.html">Product
+                    <ul class=" d-flex  mb-0 pl-0 list-unstyled">
+                        <li class="nav-item actice ml-5 ">
+
+                            <a class="nav-link d-flex align-items-baseline text-gray-8D8D8D  text-center text-20px ml-3px "
+                                href="product-list.html">
+                                <img src="img/tshirt.svg" alt="tshirt" class="mr-1">
+                                Product
                             </a>
                         </li>
-                        <li
-                            class="d-flex align-items-center ml-0  justify-content-center justify-content-lg-start ml-5  ">
-                            <img src="img/user-alt.svg" alt="user-icon">
-                            <a class="nav-link  text-md-gray-E0E0E0 text-gray-E0E0E0   text-center  text-20px ml-3px"
-                                href="login.html">log
-                                in</a>
+                        <li class="nav-item  ml-5  ">
+
+                            <a class="nav-link  d-flex align-items-baseline  text-gray-8D8D8D    text-center  text-20px ml-3px"
+                                href="login.html">
+                                <img src="img/user-alt.svg" alt="user-icon" class="mr-1">
+                                log in
+                            </a>
+
                         </li>
-                        <li
-                            class="d-flex align-items-center ml-0  justify-content-center justify-content-lg-start   ml-5 ">
-                            <img src="img/heart.svg" alt="heart">
-                            <a class="nav-link  text-md-gray-E0E0E0 text-gray-E0E0E0   text-center text-20px ml-3px"
-                                href=" #">Wishlist</a>
+                        <li class="nav-item  ml-5  ">
+
+                            <a class="nav-link  d-flex align-items-baseline  text-gray-8D8D8D    text-center  text-20px ml-3px"
+                                href=" #">
+                                <img src="img/heart.svg" alt="heart" class="mr-1">Wishlist</a>
                         </li>
-                        <li
-                            class=" d-flex align-items-center ml-0  justify-content-center justify-content-lg-start  ml-5 ">
-                            <img src="img/shopping-cart.svg" alt="shopping-car" class="  ">
-                            <a class="nav-link  text-md-gray-E0E0E0 text-gray-E0E0E0   text-center text-20px ml-3px"
-                                href=" #">Cart(3)</a>
+                        <li class=" nav-item  ml-5 ">
+
+                            <a class="nav-link  d-flex align-items-baseline  text-gray-8D8D8D    text-center  text-20px ml-3px"
+                                href=" #"> <img src="img/shopping-cart.svg" alt="shopping-car"
+                                    class=" mr-1 ">Cart(3)</a>
                         </li>
                     </ul>
                 </div>
-                <div class="d-flex align-center d-lg-none">
-                    <div class="  position-relative d-flex align-items-center">
+                <!-- 手機 漢堡選單+購物車 -->
+                <div class="d-flex  d-lg-none">
+                    <div class="  position-relative d-flex">
                         <img src="img/shopping-cart.svg" alt="shopping-cart">
                         <div class="circle rounded-circle bg-accent-dark ">
                             <p class="text-white text-center mb-0">3</p>
                         </div>
                     </div>
-                    <button class="navbar-toggler py-0 ml-5 mr-lg-0 border-0  " type="button" data-toggle="collapse"
-                        data-target="#navbar" aria-controls="navbarText" aria-expanded="false"
+                    <button class="navbar-toggler py-0 ml-7px mr-lg-0 border-outline-none " type="button"
+                        data-toggle="collapse" data-target="#navbar" aria-controls="navbarText" aria-expanded="false"
                         aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
                 </div>
             </nav>
         </div>
-        <div class="d-lg-none mw-100">
-            <div class="collapse navbar-collapse justify-content-lg-end   " id="navbar">
-                <ul class="navbar-nav ">
-                    <li
-                        class="nav-item active d-flex align-items-center ml-0  justify-content-center justify-content-lg-start bg-gray-707070 border-bottom">
-                        <img src="img/tshirt.svg" alt="tshirt" class=" d-none d-lg-block ">
-                        <a class="nav-link  text-md-gray-E0E0E0 text-gray-E0E0E0 text-center d-block  py-13px w-100 text-decoration-none text-20px "
-                            href="product-list.html">Product
-                        </a>
-                    </li>
-                    <li
-                        class="nav-item active d-flex align-items-center ml-0  justify-content-center justify-content-lg-start bg-gray-707070 border-bottom">
-                        <img src="img/user-alt.svg" alt="user-icon" class=" d-none  d-lg-block ">
-                        <a class="nav-link  text-md-gray-E0E0E0 text-gray-E0E0E0   text-center  d-block  py-13px w-100 text-decoration-none text-20px  "
-                            href="#">Wishlist</a>
-                    </li>
-                    <li
-                        class="nav-item active d-flex align-items-center ml-0  justify-content-center justify-content-lg-start bg-gray-707070 border-bottom">
-                        <img src="img/user-alt.svg" alt="user-icon" class=" d-none  d-lg-block ">
-                        <a class="nav-link  text-md-gray-E0E0E0 text-gray-E0E0E0   text-center  d-block  py-13px w-100 text-decoration-none text-20px  "
-                            href="#">Blog</a>
-                    </li>
-                    <li
-                        class="nav-item active d-flex align-items-center ml-0  justify-content-center justify-content-lg-start bg-gray-707070  border-bottom">
-                        <img src="img/heart.svg" alt="heart" class=" d-none  d-lg-block ">
-                        <a class="nav-link  text-md-gray-E0E0E0 text-gray-E0E0E0   text-center  d-block  py-13px w-100 text-decoration-none text-20px "
-                            href=" #">Contact</a>
-                    </li>
-                    <li
-                        class="nav-item active d-flex align-items-center ml-0  justify-content-center justify-content-lg-start bg-gray-707070 border-bottom">
-                        <img src="img/shopping-cart.svg" alt="shopping-car" class=" d-none  d-lg-block ">
-                        <a class="nav-link  text-md-gray-E0E0E0 text-gray-E0E0E0   text-center  d-block  py-13px w-100 text-decoration-none text-20px "
-                            href="login.html">Login</a>
-                    </li>
-                </ul>
-            </div>
+        <!-- 手機下拉式選單 -->
+        <div class="collapse  d-lg-none  " id="navbar">
+            <ul class="navbar-nav ">
+                <li class="nav-item active ml-0  bg-gray-707070 border-bottom">
+
+                    <a class="nav-link  text-white text-center d-block  py-13px w-100 text-decoration-none text-20px "
+                        href="product-list.html">Product
+                    </a>
+                </li>
+                <li class="nav-item active ml-0  bg-gray-707070 border-bottom">
+
+                    <a class="nav-link text-white   text-center  d-block  py-13px w-100 text-decoration-none text-20px  "
+                        href="#">Wishlist</a>
+                </li>
+                <li class="nav-item active ml-0  bg-gray-707070 border-bottom">
+
+                    <a class="nav-link text-white  text-center  d-block  py-13px w-100 text-decoration-none text-20px  "
+                        href="#">Blog</a>
+                </li>
+                <li
+                    class="nav-item active d-flex align-items-center ml-0  justify-content-center justify-content-lg-start bg-gray-707070  border-bottom">
+
+                    <a class="nav-link text-white   text-center  d-block  py-13px w-100 text-decoration-none text-20px "
+                        href=" #">Contact</a>
+                </li>
+                <li class="nav-item active ml-0  bg-gray-707070 border-bottom">
+
+                    <a class="nav-link  text-white  text-center  d-block  py-13px w-100 text-decoration-none text-20px "
+                        href="login.html">Login</a>
+                </li>
+            </ul>
         </div>
     </header>
     <div class="content"></div>
@@ -191,15 +192,15 @@
                             </li>
                         </ul>
                     </div>
-                    <div class="d-flex align-center d-lg-none">
-                        <div class="  position-relative d-flex align-items-center">
+                    <div class="d-flex  d-lg-none">
+                        <div class="  position-relative d-flex">
                             <img src="img/shopping-cart.svg" alt="shopping-cart">
                             <div class="circle rounded-circle bg-accent-dark ">
                                 <p class="text-white text-center mb-0">3</p>
                             </div>
                         </div>
-                        <button class="navbar-toggler py-0 ml-5 mr-lg-0 border-0  " type="button" data-toggle="collapse"
-                            data-target="#navbar" aria-controls="navbarText" aria-expanded="false"
+                        <button class="navbar-toggler py-0 ml-19px mr-lg-0 border-outline-none " type="button"
+                            data-toggle="collapse" data-target="#navbar" aria-controls="navbarText" aria-expanded="false"
                             aria-label="Toggle navigation">
                             <span class="navbar-toggler-icon"></span>
                         </button>
@@ -260,25 +261,20 @@
             <div class="container ">
                 <nav class="d-flex justify-content-between align-items-center bg-accent py-21px">
                     <div class="d-flex align-items-center">
-                        <a class="nav-item nav-link active px-0" href="index.html"><img src="img/d’Perfumew.png"
-                                alt=""></a>
+                        <a class="nav-item nav-link active px-0" href="index.html"><img src="img/d’Perfumew.png" alt="logo"></a>
                         <small class="text-white ml-20px "> ©2020. All Rights Reserved.</small>
                     </div>
-
-                    <ul class=" d-none list-unstyled d-lg-flex d-lg-block mb-0 ">
-                        <li class="ml-5">
-
+                    <ul class=" d-none list-unstyled d-lg-flex d-lg-block mb-0 text-20px ">
+                        <li class="ml-36px">
+                            <a class="nav-item nav-link  text-white" href="product-list.html">Product</a>
                         </li>
-                        <a class="nav-item nav-link  text-white" href="product-list.html">Product</a>
-                        </li>
-                        <li class="ml-5">
-
+                        <li class="ml-36px">
                             <a class="nav-item nav-link text-white" href="#">Blog</a>
                         </li>
-                        <li class="ml-5">
-
+                        <li class="ml-15px">
                             <a class="nav-item nav-link text-white" href="#">Contact</a>
                         </li>
+                    </ul>
                 </nav>
             </div>
         </footer>
