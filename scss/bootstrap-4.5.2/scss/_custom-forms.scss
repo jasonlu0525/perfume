@@ -82,7 +82,8 @@
   // Background-color and (when enabled) gradient
   &::before {
     position: absolute;
-    top: ($font-size-base * $line-height-base - $custom-control-indicator-size) / 2;
+    // top: ($font-size-base * $line-height-base - $custom-control-indicator-size) / 2;
+    top:0.38rem;
     left: -($custom-control-gutter + $custom-control-indicator-size);
     display: block;
     width: $custom-control-indicator-size;
@@ -97,7 +98,8 @@
   // Foreground (icon)
   &::after {
     position: absolute;
-    top: ($font-size-base * $line-height-base - $custom-control-indicator-size) / 2;
+    // top: ($font-size-base * $line-height-base - $custom-control-indicator-size) / 2;
+    top:0.38rem;
     left: -($custom-control-gutter + $custom-control-indicator-size);
     display: block;
     width: $custom-control-indicator-size;
@@ -115,11 +117,15 @@
 .custom-checkbox {
   .custom-control-label::before {
     @include border-radius($custom-checkbox-indicator-border-radius);
+ 
   }
 
   .custom-control-input:checked ~ .custom-control-label {
     &::after {
       background-image: escape-svg($custom-checkbox-indicator-icon-checked);
+      background-color: $accent-dark ;
+      color:#fff;
+      border-radius: .25rem;
     }
   }
 
@@ -128,6 +134,7 @@
       border-color: $custom-checkbox-indicator-indeterminate-border-color;
       @include gradient-bg($custom-checkbox-indicator-indeterminate-bg);
       @include box-shadow($custom-checkbox-indicator-indeterminate-box-shadow);
+    
     }
     &::after {
       background-image: escape-svg($custom-checkbox-indicator-icon-indeterminate);

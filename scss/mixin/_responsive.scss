@@ -1,53 +1,36 @@
-@mixin pad-1024 {
+
+@mixin pc-1920 {
+    @media only screen and (min-width:1920px) {
+        @content;
+    }
+}
+@mixin pc-1440 {
+    @media only screen and (min-width:1440px) {
+        @content;
+    }
+}
+@mixin pc-1200 {
+    @media only screen and (min-width:1200px) {
+        @content;
+    }
+}
+@mixin pc-1024 {
     @media only screen and (min-width:1024px) {
         @content;
     }
 }
-
-@mixin pad-992 {
+@mixin pc-992 {
     @media only screen and (min-width:992px) {
         @content;
     }
 }
-
-// @mixin mobile768-425 {
-//     @media only screen and (min-width:768px) and (min-width:425px) {
-//         @content;
-//     }
-// }
-
-@mixin mobile-768 {
+@mixin pad-768 {
     @media only screen and (min-width:768px) {
         @content;
     }
 }
-
-// @mixin pad-576 {
-//     @media only screen and (min-width:576px) {
-//         @content;
-//     }
-// }
-
-// @mixin mobile-425 {
-//     @media only screen and (max-width:425px) {
-//         @content;
-//     }
-// }
-// @mixin mobile425-375 {
-//     @media only screen and (max-width:425px) and (min-width:375px) {
-//         @content;
-//     }
-// }
-// @mixin mobile-375 {
-//     @media only screen and (max-width:375px) {
-//         @content;
-//     }
-
-// }
-
-// @mixin mobile-320 {
-//     @media only screen and (max-width:320px) {
-//         @content;
-//     }
-
-// }
+ @mixin mobile-576 {
+   @media only screen and (min-width:576px) {
+         @content;
+   }
+ }

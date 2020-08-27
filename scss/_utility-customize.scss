@@ -1,0 +1,64 @@
+/*border*/
+.border-2px {
+    border-width: 2px !important;
+}
+
+.border-color-818A91 {
+    border-color: #818A91;
+}
+
+.border-outline-none,
+.border-outline-none:checked,
+.border-outline-none:hover,
+.border-outline-none:focus {
+    border: none;
+    outline: none;
+}
+
+/*font-size*/
+.text-14px {
+    font-size: 14px;
+}
+
+.text-20px {
+    font-size: 20px;
+}
+
+.h5-pc {
+    @include pc-992 {
+        font-size: 1.5rem;
+    }
+}
+
+
+/* height*/
+.min-height-350px {
+    min-height: 350px;
+}
+
+.max-height-350px-100percent {
+    max-height: 350px;
+
+    @include pc-992 {
+        max-height: 100%;
+    }
+
+}
+
+.min-height-680px {
+    min-height: 680px;
+}
+
+/*width*/
+.mw-70 {
+    max-width: 70%;
+}
+
+/* z-index*/
+.index-99 {
+    z-index: 99;
+}
+
+.index-1 {
+    z-index: 1;
+}

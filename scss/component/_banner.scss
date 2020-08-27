@@ -1,0 +1,71 @@
+.banner {
+    background: url('../img/photo-1588159343745-445ae0b16383.png') no-repeat;
+    height: 480px;
+    background-size: 700px 480px;
+    position: relative;
+
+    @include pad-768 {
+        height: 870px;
+        background-size: 100% 870px;
+    }
+    &-tittle{
+        font-size: 32px;
+        @include pc-992{
+            font-size: 40px;
+        }
+    }
+    &-text{
+        font-size: 20px;
+        word-spacing: 1.5px;
+        @include pc-992{
+            font-size:1.5rem;
+        }
+    }
+}
+
+.shop-now {
+    width:100%;
+    font-size: 28px;
+     @include pc-992 {
+        width: 80%;
+    }
+}
+
+
+
+.subscribe {
+    margin-top: -171px;
+
+    .info {
+        position: relative;
+        top: 480px;
+        left: 0;
+
+        @include mobile-576 {
+             top: 490px;
+        }
+
+        @include pad-768 {
+            top: 300px;
+        }
+
+        @include pc-992 {
+            top: 490px; 
+        }
+    }
+
+    input[type="text"] {
+
+        height: 60px;
+        outline: none;
+        border-width: 1px;
+        padding: 0;
+    }
+
+    input[type="submit"] {
+        padding: 15px 26px 15px;
+    }
+    &-banner-height{
+        height:600px;
+    }
+}

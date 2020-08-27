@@ -64,7 +64,13 @@ $accent-dark:#916000 !default; //new
 $gray-8D8D8D:#8D8D8D !default; //new
 $gray-E0E0E0:#E0E0E0 !default; //new
 $gray-707070:#707070 !default; //new
-
+$gray-373A3C: #373A3C !default;
+$gray-818A91: #818A91 !default;
+$gray-495057: #495057 !default;
+$gray-A5A5A5: #A5A5A5 !default;
+$gray-848484: #848484 !default;
+$gray-CED4DA: #CED4DA !default;
+// #818A91 #A5A5A5  #848484 #495057 #373A3C #CED4DA
 
 
 $success: $green !default;
@@ -82,10 +88,16 @@ $theme-colors: map-merge(("primary": $primary,
     "warning": $warning,
     "danger": $danger,
     "light": $white,
-    "dark": $dark,
+    "dark": $dark, // #818A91 #A5A5A5  #848484 #495057 #373A3C #CED4DA
     "gray-E0E0E0":$gray-E0E0E0, //new
     "gray-8D8D8D":$gray-8D8D8D, //new
     "gray-707070":$gray-707070, //new
+    "gray-818A91":$gray-818A91,
+    "gray-A5A5A5 ":$gray-A5A5A5,
+    "gray-495057":$gray-495057,
+    "gray-848484":$gray-848484,
+    "gray-373A3C":$gray-373A3C,
+    "gray-CED4DA":$gray-CED4DA,
     "accent-light":$accent-light, //new
     "accent-dark":$accent-dark, //new
   ),
@@ -142,31 +154,50 @@ $spacers: map-merge((0: 0,
     2: ($spacer * .5),
     3: $spacer,
     4: ($spacer * 1.5),
-    5: ($spacer * 2), 
+    5: ($spacer * 2),
     6: ($spacer * 3),
     //[new]
+    -1px :(-1px),
+    1px :(1px),
     2px :(2px),
+    3px :(3px),
     4px :(4px),
     5px :(5px),
-    7.5px:(7.5px),
+    6px :(6px),
+    7px :(7px),
+    7o5px:(7.5px),
     8px :(8px),
+    -9px :(-9px),
     9px :(9px),
     10px :(10px),
     11px :(11px),
     12px :(12px),
+    13px :(13px),
     15px :(15px),
     -15px :(-15px),
-    15.5px :(15.5px),
-    -15.5px :(-15.5px),
+    15o5px :(15.5px),
+    -15o5px :(-15.5px),
     14px :(14px),
     17px :(17px),
+    19px :(19px),
     20px :(20px),
     21px :(21px),
     23px :(23px),
+    26px :(26px),
     28px :(28px),
+    30px :(30px),
+    -30px :(-30px),
+    31px :(31px),
+    32px :(32px),
+    36px :(36px),
     40px :(40px),
     42px :(42px),
+    45px :(45px),
+    -45px :(-45px),
+    47px :(47px),
     52px :(52px),
+    55px :(55px),
+    -55px :(-55px),
     60px :(60px),
     80px :(80px),
     82px :(82px),
@@ -182,7 +213,7 @@ $spacers: map-merge((0: 0,
 // pl={}-15px
 
 
-// mr-{}--15px
+// mr-{}--15px 
 
 // ml={}--15px
 

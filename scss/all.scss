@@ -1,3 +1,8 @@
 @import"bootstrap-4.5.2/scss/bootstrap";
 @import "mixin/responsive";
-@import "customize";
+@import"layout/header";
+@import"component/banner";
+@import"component/button-customize";
+@import"component/pagination-customize";
+@import"component/product";
+@import"utility-customize";
