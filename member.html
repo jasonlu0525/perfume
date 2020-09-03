@@ -15,17 +15,15 @@
     <meta property="og:url" content="https://jasonlu0525.github.io/perfume/product.html" />
     <meta property="og:image" content="img/photo-1582211594533-268f4f1edcb9@2x.png" />
     <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
-
     <link rel="stylesheet" href="css/all.min.css">
 </head>
-
 <body>
     <header class="header position-sticky sticky-top bg-white ">
         <div class="container ">
             <nav class="navbar navbar-expand-lg navbar-light justify-content-between  align-items-center px-0 py-9px  ">
-                <a class="navbar-brand py-0" href="index.html">
-                    <h1 class="logo mb-0">D'PERFUME</h1>
-                </a>
+                <h1 class="mb-0">
+                    <a class="navbar-brand py-0 logo " href="index.html">D'PERFUME</a>
+                </h1>
                 <!-- pc 選單 -->
                 <div class="d-none d-lg-block">
                     <ul class=" d-flex  mb-0 pl-0 list-unstyled">
@@ -171,13 +169,13 @@
                 <hr class="border-gray-818A91 mt-6px mb-3">
                 <form class="text-gray-818A91 ">
                     <div class="form-group  row  align-items-baseline mb-21px">
-                        <label for="ID" class=" col-3 col-lg-2 text-nowrap mb-0 ">會員帳號</label>
+                        <label for="ID" class="col-form-label col-3 col-lg-2 text-nowrap mb-0 ">會員帳號</label>
                         <input type="text" name="ID" id="ID"
                             class="form-control-plaintext  col-6 pl-15px pl-md-0 col-lg-4 text-gray-818A91"
                             placeholder="email@example.com" aria-describedby="helpId">
                     </div>
                     <div class="form-group  row  align-items-baseline mb-20px">
-                        <label for="name" class=" col-3 col-lg-2 text-nowrap mb-0">會員姓名</label>
+                        <label for="name" class="col-form-label col-3 col-lg-2 text-nowrap mb-0">會員姓名</label>
                         <div class=" col pl-md-0">
                             <div class="row no-gutters">
                                 <input type="text" name="name" id="name"
@@ -187,7 +185,7 @@
                         </div>
                     </div>
                     <div class="form-group  row  align-items-baseline mb-20px">
-                        <label for="sex" class="col-3 col-lg-2 text-nowrap mb-0">會員性別</label>
+                        <label for="sex" class="col-form-label col-3 col-lg-2 text-nowrap mb-0">會員性別</label>
                         <div class="col pl-md-0">
                             <div class="row no-gutters">
                                 <select class="form-control col-3 col-sm-2 col-md-3 col-lg-2 px-2 text-gray-818A91"
@@ -199,7 +197,7 @@
                         </div>
                     </div>
                     <div class="form-group  row  align-items-baseline mb-20px">
-                        <label for="email" class="col-3 col-lg-2 text-nowrap mb-0">電子信箱</label>
+                        <label for="email" class="col-form-label col-3 col-lg-2 text-nowrap mb-0">電子信箱</label>
                         <div class="col pl-md-0">
                             <div class="row no-gutters">
                                 <input type="email" name="email" id="email"
@@ -209,7 +207,7 @@
                         </div>
                     </div>
                     <div class="form-group  row  align-items-baseline mb-20px">
-                        <label for="phone" class="col-3 col-lg-2 text-nowrap mb-0">手機號碼</label>
+                        <label for="phone" class="col-form-label col-3 col-lg-2 text-nowrap mb-0">手機號碼</label>
                         <div class="col pl-md-0">
                             <div class="row no-gutters">
                                 <input type="text" name="phone_number" id="phone"
@@ -219,7 +217,8 @@
                         </div>
                     </div>
                     <div class="form-group  row  align-items-baseline mb-20px">
-                        <label for="Contact_address" class="col-3 col-lg-2 text-nowrap mb-0 ">聯絡地址</label>
+                        <label for="Contact_address"
+                            class="col-form-label col-3 col-lg-2 text-nowrap mb-0 ">聯絡地址</label>
                         <div class="col-9 pl-md-0">
                             <div class="row no-gutters">
                                 <div class="col-12 col-lg-8 mb-2 px-0">
@@ -256,7 +255,7 @@
                         </div>
                     </div>
                     <div class="form-group  row  align-items-baseline mb-0 ">
-                        <label for="delivery" class=" col-3 col-lg-2 text-nowrap mb-0 ">配送地址</label>
+                        <label for="delivery" class="col-form-label col-3 col-lg-2 text-nowrap mb-0 ">配送地址</label>
                         <div class="col-9 pl-md-0">
                             <div class="row no-gutters ">
                                 <div class="col-12 col-lg-8 px-0 mb-2">
@@ -267,11 +266,7 @@
                                 <div class="col-12 col-lg-8 mb-2">
                                     <div class="row no-gutters">
                                         <div class="col-6 pr-5px">
-                                            <select class=" form-control  px-1 text-gray-818A91 " name="delivery_city"
-                                                style="
-    position: relative;
-    /* z-index: 2; */
-">
+                                            <select class=" form-control  px-1 text-gray-818A91 " name="delivery_city">
                                                 <option value="delivery_kaoshung">高雄市</option>
                                             </select>
                                         </div>
@@ -297,7 +292,7 @@
                     <h6 class="text-primary font-weight-bold mb-0 ">修改密碼</h6>
                     <hr class="border-gray-818A91 mt-6px  mb-3">
                     <div class="form-group  row  align-items-baseline mb-20px">
-                        <label for="past-password" class=" col-3 col-lg-2 text-nowrap mb-0">舊密碼</label>
+                        <label for="past-password" class="col-form-label col-3 col-lg-2 text-nowrap mb-0">舊密碼</label>
                         <div class="col pl-md-0">
                             <div class="row no-gutters">
                                 <input type="text" name="past-password" id="past-password"
@@ -307,7 +302,7 @@
                         </div>
                     </div>
                     <div class="form-group row align-items-baseline mb-20px">
-                        <label for="latest-password" class="col-3 col-lg-2 text-nowrap mb-0">新密碼</label>
+                        <label for="latest-password" class="col-form-label col-3 col-lg-2 text-nowrap mb-0">新密碼</label>
                         <div class="col pl-md-0">
                             <div class="row no-gutters">
                                 <input type="text" name="latest-password" id="latest-password"
@@ -316,10 +311,8 @@
                             </div>
                         </div>
                     </div>
-                    <div class="form-group  row mb-3 align-items-center ">
-                        <div class="col-3 col-lg-2 ">
-                            <label for="confirm" class=" mb-0 ">確認新密碼</label>
-                        </div>
+                    <div class="form-group  row mb-3 align-items-center">
+                        <label for="confirm" class="col-form-label col-3 col-lg-2  mb-0 ">確認新密碼</label>
                         <div class="col pl-md-0 ">
                             <div class="row no-gutters">
                                 <input type="text" name="confirm" id="confirm"
