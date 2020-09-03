@@ -58,18 +58,18 @@ $colors: map-merge(("blue": $blue,
 
 
 $primary: $black !default; //$blue 
-$secondary:$gray-600 !default;
+$secondary:$gray-600 !default;//new
 $accent-light:#AC8A46 !default; //new
 $accent-dark:#916000 !default; //new
 $gray-8D8D8D:#8D8D8D !default; //new
 $gray-E0E0E0:#E0E0E0 !default; //new
 $gray-707070:#707070 !default; //new
-$gray-373A3C: #373A3C !default;
-$gray-818A91: #818A91 !default;
-$gray-495057: #495057 !default;
-$gray-A5A5A5: #A5A5A5 !default;
-$gray-848484: #848484 !default;
-$gray-CED4DA: #CED4DA !default;
+$gray-373A3C: #373A3C !default;//new
+$gray-818A91: #818A91 !default;//new
+$gray-495057: #495057 !default;//new
+$gray-A5A5A5: #A5A5A5 !default;//new
+$gray-848484: #848484 !default;//new
+$gray-CED4DA: #CED4DA !default;//new
 // #818A91 #A5A5A5  #848484 #495057 #373A3C #CED4DA
 
 
@@ -203,40 +203,6 @@ $spacers: map-merge((0: 0,
     82px :(82px),
     102px :(102px) //[new]
   ), $spacers);
-// pr-{}--15px
-
-// pl={}--15px 
-
-
-// pr-{}-15px
-
-// pl={}-15px
-
-
-// mr-{}--15px 
-
-// ml={}--15px
-
-
-// mr-{}-15px
-
-// ml={}-15px
-
-
-//   <!--   --> <!---->   <!--   -->
-
-// mt-40px	mb-md-52px		pt-md-40px pt-mt-40px py-40px
-// mb-20px	mb-md-60px		pt-17px pb-17px py-17px -->button
-// mb-40px mt-md-60px
-
-// 灰色背景 mb-4px //mb-md-0
-
-// ml-4px ml-md-2
-// mb-4px
-
-
-// footer ml-23px ml-md-20px
-
 
 
 // This variable affects the `.h-*` and `.w-*` classes.
